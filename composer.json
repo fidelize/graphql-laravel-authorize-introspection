@@ -1,7 +1,7 @@
 {
     "name": "fidelize/graphql-laravel-authorize-introspection",
     "description": "Authorize introspection documentarion for rebing/graphql-laravel",
-    "keywords": ["framework", "laravel", "graphql", "rebing/graphql-laravel"],
+    "keywords": ["framework", "laravel", "graphql", "graphql-laravel"],
     "authors": [
         {
             "name": "Fidelize IT",
