@@ -17,7 +17,7 @@ class GraphQL extends BaseGraphQL
     private function isIntrospectionQueryRequest()
     {
         return request() && preg_match(
-            '/\s*__(type|schema|typekind|field|directive|directivelocation|inputvalue|enumvalue)\s*\(/i',
+            '/\s*__(type|schema|typekind|field|directive|directivelocation|inputvalue|enumvalue)\s*(\(|\{)/i',
             request()->__toString()
         );
     }
