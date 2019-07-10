@@ -6,7 +6,7 @@ use Rebing\GraphQL\GraphQLServiceProvider;
 
 class ServiceProvider extends GraphQLServiceProvider
 {
-    public function registerGraphQL()
+    public function registerGraphQL(): void
     {
         $this->app->singleton('graphql', function($app) {
             $graphql = new GraphQL($app);
