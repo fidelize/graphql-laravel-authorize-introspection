@@ -2,10 +2,8 @@
 
 namespace Fidelize\GraphQLAuthorizedIntrospection;
 
-use GraphQL\Type\Definition\ObjectType;
 use Rebing\GraphQL\GraphQL as BaseGraphQL;
 use Rebing\GraphQL\Schema;
-use Rebing\GraphQL\SchemaNotFound;
 
 class GraphQL extends BaseGraphQL
 {
@@ -23,11 +21,11 @@ class GraphQL extends BaseGraphQL
     }
 
     /**
-     * @param Schema|array|string|null $schema
-     * @return Schema
+     * @param  array|string|null  $schema
+     * @return array
      * @throws AuthorizeIntrospectionMethodNotImplemented
      */
-    protected function getSchemaConfiguration($schema)
+    protected function getSchemaConfiguration($schema): array
     {
         $schema = parent::getSchemaConfiguration($schema);
 
