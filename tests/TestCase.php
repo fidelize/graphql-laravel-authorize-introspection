@@ -1,5 +1,5 @@
 <?php
-namespace Tests;
+namespace Fidelize\Tests;
 
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;

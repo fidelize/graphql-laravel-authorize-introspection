@@ -1,13 +1,13 @@
 <?php
-namespace Tests;
+namespace Fidelize\Tests;
 
 use Fidelize\GraphQLAuthorizedIntrospection\AuthorizeIntrospectionMethodNotImplemented;
 use Fidelize\GraphQLAuthorizedIntrospection\GraphQL;
 use GraphQL\Type\Definition\Type;
 use Illuminate\Http\Request;
-use Tests\fake\QueryThatDoesNotAuthorizeIntrospection;
-use Tests\fake\QueryThatAuthorizesIntrospection;
-use Tests\fake\QueryThatDoesNotHaveAuthorizeIntrospectionMethod;
+use Fidelize\Tests\fake\QueryThatDoesNotAuthorizeIntrospection;
+use Fidelize\Tests\fake\QueryThatAuthorizesIntrospection;
+use Fidelize\Tests\fake\QueryThatDoesNotHaveAuthorizeIntrospectionMethod;
 
 class GraphQLTest extends TestCase
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Tests;
+namespace Fidelize\Tests;
 
 use Fidelize\GraphQLAuthorizedIntrospection\GraphQL;
 use Fidelize\GraphQLAuthorizedIntrospection\ServiceProvider;

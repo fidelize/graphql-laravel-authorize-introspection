@@ -1,5 +1,5 @@
 <?php
-namespace Tests\fake;
+namespace Fidelize\Tests\fake;
 
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Query;
